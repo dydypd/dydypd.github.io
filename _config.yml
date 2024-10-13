@@ -31,7 +31,7 @@ plugins:
   - jekyll-loading-lazy
 
 exclude:
-  - docs/
+  - _posts/
 
 collections:
   pages:
