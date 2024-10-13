@@ -56,5 +56,3 @@ thumbnail: "/assets/img/thumbnail/bricks.webp"
 <br/>• **A+ with a 10/10 Grade in the Java Programming course at the University**
 
 • **B2** **APTIS ESOL International Certificate**: **(03/2024)**
-
----

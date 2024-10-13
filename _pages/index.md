@@ -1,5 +1,6 @@
 ---
-title: Homepage
+layout: default
+title: Trang Chủ
 ---
 
 # About me
