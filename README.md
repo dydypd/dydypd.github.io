@@ -2,6 +2,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT)
 [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%204.3.2-green.svg)](https://jekyllrb.com/)
 [![Jekyll](https://img.shields.io/badge/gem%20version-3.2.33-blue.svg)](gem)
+<a href="https://jekyll-themes.com/byanko55/jekyll-theme-satellite">
+  <img
+    src="https://img.shields.io/badge/featured%20on-JT-red.svg"
+    height="20"
+    alt="Jekyll Themes Shield"
+  />
+</a>
 
 # Satellite🛰️ - Jekyll blog theme
 An emotional and adorable blog theme powered by ***Jekyll***. 
@@ -11,10 +18,10 @@ Live demo is available [here](https://byanko55.github.io)
 ![Demo Page](https://i.ibb.co/h1QF06V/demo.webp)
 
 ### Light Mode
-![Demo Page-light](https://i.ibb.co/PtTbM1V/image-4.webp)
+![Demo Page-light](https://i.ibb.co/DtDPCpR/white.webp)
 
 ### Dark Mode
-![Demo Page-dark](https://i.ibb.co/cY6hwG4/image-5.webp)
+![Demo Page-dark](https://i.ibb.co/BjsrWg2/dark.webp)
 
 ### Fresh and Attractive Design
 <p>
@@ -39,7 +46,6 @@ Live demo is available [here](https://byanko55.github.io)
 * Table of Contents
 * Visitor Counter (*goatcounter*)
 
-<br></br>
 
 ## Installation
 
@@ -50,7 +56,15 @@ There are two ways to setup this theme:
 Fork [this repository](https://github.com/byanko55/jekyll-theme-satellite) or download the [source](https://github.com/byanko55/jekyll-theme-satellite/releases) as a zip. 
 
 If you use as destination a repository named USERNAME.github.io, then your url will be https://USERNAME.github.io/.
+
+Otherwise (let's say `myblog`), you need to edit the '*baseurl*' parameter in `_config.yml`. In this case, the root page will be served to "https://USERNAME.github.io/myblog/".
+
+```yml
+# set baseurl as "/<repo-name>". ex) baseurl: /myblog
+baseurl: /myblog
+```
 <br></br>
+
 
 ### Method 2: Utilize Gem package
 Create a clean site directory (Follow the **Instruction 1~4** described [here](https://jekyllrb.com/docs/)).
@@ -58,12 +72,11 @@ Create a clean site directory (Follow the **Instruction 1~4** described [here](h
 The following materials are redundant, so remove them.
 * index.markdown
 * about.markdown
-* 404.html
 <br></br>
 
 Then, add this line to your Jekyll site's `Gemfile`:
 
-```
+```bash
 gem "jekyll-theme-satellite"
 ```
 
@@ -74,7 +87,7 @@ You need to replace the initial `_config.yml` file with the [prepared one](https
 
 Now fill in the **site variable** such as blog name, profile image, and social accounts in `_config.yml`.
 
-```
+```yml
 title: Example.com
 description: "Satellite - jekyll blog theme"
 logo_img: "/assets/img/favicon.webp"
@@ -88,7 +101,7 @@ instagram_username: instagram
 linkedin_username: linkedin
 facebook_username: facebook
 ```
-<br></br>
+
 
 ### Run site locally
 
@@ -97,7 +110,7 @@ From the site root directory, install the dependencies:
 ```
 bundle install
 ```
-<br></br>
+
 
 Start a Jekyll service.
 
@@ -117,7 +130,6 @@ You can find useful manuals for customizing your site from the below table:
 |Posting guidelines|[link](https://github.com/byanko55/jekyll-theme-satellite/blob/master/docs/Posting%20Guide.md)|
 |Enabling ***comment system***|[link](https://github.com/byanko55/jekyll-theme-satellite/blob/master/docs/Comment%20System.md)|
 |Enabling ***Visitor counter***|[link](https://github.com/byanko55/jekyll-theme-satellite/blob/master/docs/Visitor%20Counter.md)|
-<br></br>
 
 ## Contribution
 If you would like to report a bug or request a new feature, please open [an issue](https://github.com/byanko55/jekyll-theme-satellite/issues) We are open to any kind of feedback or collaboration.
