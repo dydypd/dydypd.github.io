@@ -3,8 +3,6 @@ title: "About me"
 thumbnail: "/assets/img/thumbnail/bricks.webp"
 ---
 
-# About me
-
 ## Career Objective
 
 <br/> Adept at leveraging advanced Generative AI technologies, including LLMs like GPT-3.5, I honed my skills at SmartLog, Vietnam, by pioneering innovative AI solutions to complex optimization challenges. My expertise encompasses Python programming and effective teamwork, underscored by a track record of developing groundbreaking algorithms for significant efficiency improvements.
